@@ -1,0 +1,34 @@
+p{color:lightcoral
+}
+h1 {
+    color: pink;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted purple;
+}
+
+h2 {
+    font-style: italic;
+    color:blueviolet;
+    
+}
+
+.job-title {
+    color: lightpink;
+    font-weight: bold;
+}
+
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: green;
+}
+
+ul {
+    background-color: #eeeeee;
+    padding-left: 20em;
+    border: 5px solid yellow
+}
