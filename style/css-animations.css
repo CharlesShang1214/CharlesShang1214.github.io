@@ -1,0 +1,95 @@
+/* Task 1: Hover Highlight Card */
+.hover-highlight-card:hover {
+    padding: 20px;
+    color:blue;
+    box-shadow: 10px 5px 5px red, inset 100em 100em gold;
+}
+
+/* Task 2: Animated Navigation Menu */
+.animated-nav-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.animated-nav-menu a {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 4px;
+    color: #00aaff;
+    background-color: white;
+    transition: color 0.5s, background-color 0.5s;
+}
+.animated-nav-menu a:hover {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 4px;
+    color: #ffffff;
+    background-color: #00aaff;
+  
+}
+
+
+/* Task 3: Button Press Animation */
+.button-press-animation button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+}
+.button-press-animation button:hover{
+    color:pink;
+    transform: skew(5deg);
+    box-shadow: 10px 5px 5px violet;
+}
+.button-press-animation button:active{
+    color:black;
+    transform: scale(.7) translateY(5px) translateX(10px) skewX(20deg);
+    box-shadow:none;
+}
+
+/* Task 4: Simple Loading Spinner */
+.simple-loading-spinner .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation-name: rotate;
+    animation-duration: 0.01ms;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear
+}
+@keyframes rotate{
+    form {
+        transform:rotate(0deg);
+
+    }
+    to {
+        transform:rotate(360deg);
+
+    }
+}
+
+/* Task 5: Fading Gallery */
+.fading-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fading-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 1s, transform 1s, box-shadow 1s;
+}
+.fading-gallery img:hover {
+    opacity: 0.5;
+    transform:scale(1.3) translateY(-10px);
+    box-shadow:10px 10px 10px black;
+
+}
+

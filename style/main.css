@@ -10,3 +10,7 @@ p {
     border: 5px rgb(200, 225, 120) solid
 }
 
+a:hover {
+    color: pink;
+    box-shadow: 10px 5px 5px red;
+}
