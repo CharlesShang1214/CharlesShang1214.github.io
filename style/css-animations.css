@@ -27,7 +27,7 @@
     padding: 4px;
     color: #ffffff;
     background-color: #00aaff;
-  
+
 }
 
 
@@ -63,13 +63,11 @@
     animation-timing-function:linear
 }
 @keyframes rotate{
-    form {
+    from {
         transform:rotate(0deg);
-
     }
     to {
         transform:rotate(360deg);
-
     }
 }
 

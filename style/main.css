@@ -1,16 +1,26 @@
-p {
-    color: rgb(158, 164, 164);
-}
 
 .waterlomen {
     color: darkkhaki
 }
 
 .title {
-    border: 5px rgb(200, 225, 120) solid
+    border: 5px purple solid;
+    background-color: blueviolet;
+    color:white;
 }
+a {    
+    background-color: aqua;
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 4px;
+    transition: color 0.5s, background-color 0.5s, box-shadow 1s;
 
+
+    
+}
 a:hover {
-    color: pink;
-    box-shadow: 10px 5px 5px red;
+    background-color: aqua;
+    color: blueviolet;
+    box-shadow: 10px 5px 5px darkblue;
 }
