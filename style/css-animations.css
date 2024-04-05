@@ -84,11 +84,11 @@
     height: 100px;
     object-fit: cover;
     opacity: 1;
-    transition: opacity 1s, transform 1s, box-shadow 1s;
+    transition: opacity 10s, transform 10s, box-shadow 10s;
 }
 .fading-gallery img:hover {
     opacity: 0.5;
-    transform:scale(1.3) translateY(-10px);
+    transform:scale(13) translateY(-50px);
     box-shadow:10px 10px 10px black;
 
 }
