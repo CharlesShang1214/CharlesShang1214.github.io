@@ -1,21 +1,18 @@
-Task1
-for (var i = 0;i<=10;i++){
+
+for (let i = 0;i<=10;i++){
     i*i
+    console.log(Task1)
     console.log(i);
 }
 
 
-Task2
 
-Task3
-for (var i=0;i<=25;i++){
+for (let i=0;i<=25;i++){
     i*2
 
+    console.log(Task3)
     console.log(i);
 }
 
 
-Task4
-    
-Task5 
 
