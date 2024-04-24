@@ -26,6 +26,6 @@ button:active{
 }
 a:hover {
     background-color: aqua;
-    color: blueviolet;
-    box-shadow: 5px 5px 5px darkblue;
+    color: violet;
+    box-shadow: 3px 3px 3px darkblue;
 }
