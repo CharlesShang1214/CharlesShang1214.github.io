@@ -19,8 +19,13 @@ a {
 
     
 }
+button:active{
+    color:black;
+    transform: scale(.7) translateY(5px) translateX(10px) skewX(20deg);
+    box-shadow:none;
+}
 a:hover {
     background-color: aqua;
     color: blueviolet;
-    box-shadow: 10px 5px 5px darkblue;
+    box-shadow: 5px 5px 5px darkblue;
 }
