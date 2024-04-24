@@ -28,7 +28,7 @@ console.log(sum)
 
 console.log("Task5")
 let answer=1
-for(let i=0; i<=10;i++){
+for(let i=1; i<=10;i++){
     answer*= i
     console.log(answer)
 }
