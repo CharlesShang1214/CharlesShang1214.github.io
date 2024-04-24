@@ -17,11 +17,5 @@ for (let i=0;i<=25;i++){
     console.log(i*2);
 }
 
-for (let i=0;i<=100;i++){
-    for(let j=i;j<=100;)
-}
 
-for (let i=0;i<=10;i++){
-    
-}
 
