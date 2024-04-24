@@ -11,11 +11,15 @@ for(let i=6;i<0;i--){
 console.log("Blastoff!")
 console.log("Task3")
 for (let i=0;i<=25;i++){
-
-
-
     console.log(i*2);
 }
+
+console.log("Task4")
+let sum=0
+for(let i=0;i<=100;i++){
+    sum+= i
+}
+console.log(sum)
 
 
 
