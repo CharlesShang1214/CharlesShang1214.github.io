@@ -28,4 +28,11 @@ for(let i=1; i<=10;i++){
 }
 
 
+console.log("Task6")
+let arr=[3,1,4,1,5];
 
+console.log(arr[0])
+console.log(arr[1])
+console.log(arr[2])
+console.log(arr[3])
+console.log(arr[4])
