@@ -27,12 +27,36 @@ for(let i=1; i<=10;i++){
     console.log(answer)
 }
 
-
-console.log("Task6")
 let arr=[3,1,4,1,5];
+console.log("Task6")
 
-console.log(arr[0])
-console.log(arr[1])
-console.log(arr[2])
-console.log(arr[3])
-console.log(arr[4])
+for (let i=0;i<arr.length;i++){
+    console.log(arr[i])
+}
+
+    console.log("Task7")
+
+ for (let i=-1;i>=-(arr.length);i--){
+    console.log(arr.at(i))
+} 
+
+    console.log("Task8")
+let empty=[]
+for (let i=0;i<=10;i++){
+    empty.push(i*i*i);
+}
+console.log(empty)
+
+console.log("Task9")
+let fbnc=[]
+for(let i=0;i<=10;i++){
+    fbnc.push((Math.pow(1.618034, i)-Math.pow(1 -1.618034, i))/Math.sqrt(5));
+}
+console.log(fbnc)
+console.log("Task10")
+let mt = [];
+for (let i = arr.length-1;i >= 0;i--) {
+    mt.push(arr[i]);
+}
+console.log(mt);
+
