@@ -54,6 +54,7 @@ for(let i=0;i<=10;i++){
     fbnc.push(Math.round(num))
 
 }
+//https://www.cuemath.com/numbers/fibonacci-sequence/ reference
 console.log(fbnc)
 console.log("Task10")
 let mt = [];
