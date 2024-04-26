@@ -50,7 +50,9 @@ console.log(empty)
 console.log("Task9")
 let fbnc=[]
 for(let i=0;i<=10;i++){
-    fbnc.push((Math.pow(1.618034, i)-Math.pow(1 -1.618034, i))/Math.sqrt(5));
+    let num=((Math.pow(1.618034, i)-Math.pow(0.618034, i))/Math.sqrt(5));
+    fbnc.push(Math.round(num))
+
 }
 console.log(fbnc)
 console.log("Task10")
