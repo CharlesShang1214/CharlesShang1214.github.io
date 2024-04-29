@@ -36,9 +36,9 @@ for (let i=0;i<arr.length;i++){
 
     console.log("Task7")
 
- for (let i=-1;i>=-(arr.length);i--){
-    console.log(arr.at(i))
-} 
+    for (let i = 0+1; i < arr.length; i++) {
+        console.log(arr.at(-i -1))
+    } 
 
     console.log("Task8")
 let empty=[]
