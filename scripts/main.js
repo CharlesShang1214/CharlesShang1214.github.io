@@ -36,7 +36,7 @@ for (let i=0;i<arr.length;i++){
 
     console.log("Task7")
 
-    for (let i = 0+1; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         console.log(arr.at(-i -1))
     } 
 
