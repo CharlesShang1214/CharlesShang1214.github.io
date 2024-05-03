@@ -6,6 +6,7 @@
     <title>WaterLomen</title>
     <link href="style/main.css" rel="stylesheet">
     <link src="/scripts/main.js">
+    
 </head>
 <body>
     <h1 class="title">WaterLomen!!!</h1>
@@ -34,5 +35,18 @@
     <a href="/about.html">about me:)</a>
     
     <script src="scripts/main.js"></script>
+    <script>
+        let color=[red,blue,green,yellow,white,black,pink];
+        let udl= document.createElement("ul");
+        for(i=0, i<=length.color,i++){
+            let listItemEl=document.createElement("li");
+            listItemEl.innerText=color[i];
+            listItemEl.style.color=color[i];
+            unorderedList.appendChild(listItemEl);    
+        }
+        
+        document.body.appendChild(unorderedList);
+    </script>
 </body>
+
 </html>
