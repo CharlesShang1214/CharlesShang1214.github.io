@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content"="width=device-width, initial-scale=0.05">
+    <title>WaterLomen Math Portion</title>
+    <link href="math/math.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.js" integrity="sha512-34c+czbe1JJMtTH6ebtsJdIa1K3lNsxDC92M3PBI0bACg7nu+DhHwfRS2Zc2qtbyPWKHLTgoxsMrArG4Myx4AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+<h1>Factor Machine!</h1>
+<p>This website helps you factor "ax<sup>2</sup>+bx+c" kind of functions</p>
+<h2>Your function:ax<sup>2</sup>+bx+c</h2>
+<p>a value:<input type="number" id="a"><p>
+<p>b value:<input type="number" id="b"><p>
+<p>c value:<input type="number" id="c"><p>
+<h6>*If the sign before your number is "-", just make your number negative</h6>
+<h6>*If 4ac >b<sup>2</sup>, than solution is going to be complex number, which will show NaN on screen</h6>
+<p>Return Values:</p>
+<p id="solution1"></p>
+<p id="solution2"></p>
+<script>
+    function calculate() {
+        let a = parseFloat(document.getElementById('a').value);
+        let b = parseFloat(document.getElementById('b').value);
+        let c = parseFloat(document.getElementById('c').value);
+        let twoa = 2 * a;
+        // square root of b square minus four a
+        let sqrtbsmfa = math.sqrt(b * b - 4 * a * c);
+        let numeratorp = -b + sqrtbsmfa;
+        let numeratorn = -b - sqrtbsmfa;
+        let solution1 = numeratorp / twoa;
+        let solution2 = numeratorn / twoa;
+        document.getElementById('solution1').innerText = "Solution 1: " + solution1;
+        document.getElementById('solution2').innerText = "Solution 2: " + solution2;
+    }
+</script>
+<button class="press" onclick="calculate()">Calculate</button>
+<p></p>
+
+<a href="../index.html">Main Page</a>
+</body>

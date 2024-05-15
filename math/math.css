@@ -1,0 +1,21 @@
+*{
+    background-color:lightcyan
+}
+.press{
+    background-color:aqua;
+    color:blue;
+    border-radius: 10%;
+    transition: background-color 0.5s, color 0.5s;
+}
+.press:hover{
+    background-color:blue;
+    color:aqua;
+}
+.explaination{
+    padding: 2px;
+    color:blue;
+    box-shadow: 10px 5px 5px blue, inset 100em 100em aqua
+}
+.words{
+    background-color:aqua
+}
