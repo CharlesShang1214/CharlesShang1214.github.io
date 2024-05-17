@@ -1,0 +1,45 @@
+*{
+    background-color: lightcyan;
+}
+li{
+    padding: 2px;
+    color:blue;
+    box-shadow: 10px 5px 5px blue, inset 100em 100em #8cffdb;
+    background-color: #8cffdb;
+}
+li *{
+    background-color: #8cffdb;
+}
+h1{
+    color:blue;
+}
+h2{
+    color:blue;
+}
+p{
+    color:rgba(0, 0, 255, 0.763);
+}
+h6{
+    color:rgba(0, 0, 255, 0.763);
+}
+button{
+    color:blue;
+    background-color:aqua;
+    border:aqua;
+    border-radius:5px;
+    transform:scale(1.5) translateX(20px);
+    transition: color 0.5s, background-color 0.5s, scale 0.5s;
+}
+button:hover{
+    background-color: blue;
+    color:aqua;
+}
+
+button:active{
+    transform:scale(1.2) translateY(5px) translateX(20px);
+}
+input{
+    color:blue;
+    border:0;
+    border-bottom: 1px solid;
+}
