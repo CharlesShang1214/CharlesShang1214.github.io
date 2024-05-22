@@ -1,6 +1,6 @@
 *{
     background-color:lightcyan;
-    cursor: url('cursor.png'), auto;
+    cursor: url(cursor.png), auto;
 }
 
 .press{
