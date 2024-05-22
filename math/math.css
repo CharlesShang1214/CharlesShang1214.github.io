@@ -1,15 +1,19 @@
 *{
-    background-color:lightcyan
+    background-color:lightcyan;
+    cursor: url('image/cursor.png'), auto;
 }
+
 .press{
     background-color:aqua;
     color:blue;
     border-radius: 10%;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s,box-shadow 0.5s;
+    display:inline;
 }
 .press:hover{
     background-color:blue;
     color:aqua;
+    box-shadow: 5px 5px 5px aqua;
 }
 .explaination{
     padding: 2px;
@@ -18,4 +22,21 @@
 }
 .words{
     background-color:aqua
+}
+img{
+    background-color:aqua;
+    color:blue;
+    border-radius: 10%;
+    transition: background-color 0.5s, color 0.5s;
+
+}
+img:hover{
+    background-color:blue;
+    color:aqua;
+}
+s{
+    background:none;
+}
+sup{
+    background:none;
 }

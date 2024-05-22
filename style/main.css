@@ -1,17 +1,23 @@
 
-.waterlomen {
-    color: darkkhaki
+*{
+    background-color:lightyellow ;
 }
 
-.title {
-    border: 5px purple solid;
-    background-color: blueviolet;
-    color:white;
-    display:inline
+
+.title{
+    background-color: orange;
+    display:inline;
+    border-radius: 5%; 
+    transition: color 0.5s, background-color 0.5s;
+}
+.title:hover{
+    background-color:yellow;
+    color: orange;
 }
 a {    
-    background-color: aqua;
-    color: blueviolet;
+    display:inline-block;   
+    background-color: yellow;
+    color: darkgoldenrod;
     text-decoration: none;
     border-radius: 10%;
     padding: 4px;
@@ -26,7 +32,11 @@ button:active{
     box-shadow:none;
 }
 a:hover {
-    background-color: aqua;
-    color: violet;
-    box-shadow: 3px 3px 3px darkblue;
+    background-color: orange;
+    color: black;
+    box-shadow: 7px 7px 7px yellow;
+}
+
+img{
+    background: none;
 }
