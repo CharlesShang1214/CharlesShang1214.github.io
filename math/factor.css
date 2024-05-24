@@ -1,13 +1,13 @@
 *{
     background-color: lightcyan;
 }
-li{
+ol{
     padding: 2px;
     color:blue;
     box-shadow: 10px 5px 5px blue, inset 100em 100em #8cffdb;
     background-color: #8cffdb;
 }
-li *{
+ol *{
     background-color: #8cffdb;
 }
 h1{
@@ -23,6 +23,8 @@ h6{
     color:rgba(0, 0, 255, 0.763);
 }
 button{
+    margin: 30px;
+    padding: 15px;
     color:blue;
     background-color:aqua;
     border:aqua;
@@ -42,4 +44,19 @@ input{
     color:blue;
     border:0;
     border-bottom: 1px solid;
+}
+img{
+    background: none;
+}
+.logo {
+    display: inline-block;
+    background-color: aqua;
+    color: blue;
+    border-radius: 10%;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+.logo:hover{
+    background-color:blue;
+    color:aqua;
+    box-shadow: 5px 5px 5px aqua;
 }
