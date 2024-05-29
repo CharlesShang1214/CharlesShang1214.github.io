@@ -1,39 +1,43 @@
 *{
-    background-color:lightcyan;
-    cursor: url('cursor.png'), auto;
+    background-color:lightyellow;
+    cursor: url('../cursor.png'), auto;
 }
 
 .press{
-    background-color:aqua;
-    color:blue;
+    background-color:yellow;
+    color:orange;
     border-radius: 10%;
     transition: background-color 0.5s, color 0.5s,box-shadow 0.5s;
     display:inline;
 }
 .press:hover{
-    background-color:blue;
-    color:aqua;
-    box-shadow: 5px 5px 5px aqua;
+    background-color:orange;
+    color:yellow;
+    box-shadow: 5px 5px 5px yellow;
 }
 .explaination{
     padding: 2px;
-    color:blue;
-    box-shadow: 10px 5px 5px blue, inset 100em 100em aqua
+    color:orange;
+    box-shadow: 10px 5px 5px orange, inset 100em 100em yellow
 }
 .words{
-    background-color:aqua
+    background-color:yellow
 }
 img{
-    background-color:aqua;
-    color:blue;
+    background-color:yellow;
+    color:orange;
     border-radius: 10%;
-    transition: background-color 0.5s, color 0.5s;
+ 
 
 }
-img:hover{
-    background-color:blue;
-    color:aqua;
+.logo{
+    transition: background-color 0.5s, color 0.5s;
 }
+.logo:hover{
+    background-color:orange;
+    color:yellow;
+}
+
 s{
     background:none;
 }

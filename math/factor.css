@@ -1,62 +1,63 @@
-*{
-    background-color: lightcyan;
-}
-ol{
-    padding: 2px;
-    color:blue;
-    box-shadow: 10px 5px 5px blue, inset 100em 100em #8cffdb;
-    background-color: #8cffdb;
-}
-ol *{
-    background-color: #8cffdb;
-}
-h1{
-    color:blue;
-}
-h2{
-    color:blue;
-}
-p{
-    color:rgba(0, 0, 255, 0.763);
-}
-h6{
-    color:rgba(0, 0, 255, 0.763);
-}
-button{
-    margin: 30px;
-    padding: 15px;
-    color:blue;
-    background-color:aqua;
-    border:aqua;
-    border-radius:5px;
-    transform:scale(1.5) translateX(20px);
-    transition: color 0.5s, background-color 0.5s, scale 0.5s;
-}
-button:hover{
-    background-color: blue;
-    color:aqua;
-}
+    *{
+        background-color: lightyellow;
+        cursor: url('../cursor.png'), auto;
+    }
+    ol{
+        padding: 2px;
+        color:orange;
+        box-shadow: 10px 5px 5px orange, inset 100em 100em lightgoldenrodyellow;
+        background-color: lightgolderodnyellow;
+    }
+    ol *{
+        background-color: lightgoldenrodyellow;
+    }
+    h1{
+        color:orange;
+    }
+    h2{
+        color:orange;
+    }
+    p{
+        color:orange;
+    }
+    h6{
+        color:orange;
+    }
+    button{
+        margin: 30px;
+        padding: 15px;
+        color:orange;
+        background-color:yellow;
+        border:yellow;
+        border-radius:5px;
+        transform:scale(1.5) translateX(20px);
+        transition: color 0.5s, background-color 0.5s, transform 0.2s;
+    }
+    button:hover{
+        background-color: orange;
+        color:yellow;
+    }
 
-button:active{
-    transform:scale(1.2) translateY(5px) translateX(20px);
-}
-input{
-    color:blue;
-    border:0;
-    border-bottom: 1px solid;
-}
-img{
-    background: none;
-}
-.logo {
-    display: inline-block;
-    background-color: aqua;
-    color: blue;
-    border-radius: 10%;
-    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
-}
-.logo:hover{
-    background-color:blue;
-    color:aqua;
-    box-shadow: 5px 5px 5px aqua;
-}
+    button:active{
+        transform:scale(1.2) translateY(5px) translateX(20px);
+    }
+    input{
+        color:orange;
+        border:0;
+        border-bottom: 1px solid;
+    }
+    img{
+        background: none;
+    }
+    .logo {
+        display: inline-block;
+        background-color: yellow;
+        color: orange;
+        border-radius: 10%;
+        transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+    }
+    .logo:hover{
+        background-color:orange;
+        color:yellow;
+        box-shadow: 5px 5px 5px yellow;
+    }

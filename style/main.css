@@ -1,7 +1,6 @@
-
 *{
     background-color:lightyellow ;
-    cursor: url('cursor.png'), auto;
+    cursor: url('../cursor.png'), auto;
 }
 
 
@@ -27,9 +26,10 @@ a {
 
     
 }
-button:active{
+
+.button:active{
     color:black;
-    transform: scale(.7) translateY(5px) translateX(10px) skewX(20deg);
+    transform: scale(.9) translateY(5px) translateX(10px) skewX(10deg);
     box-shadow:none;
 }
 a:hover {
