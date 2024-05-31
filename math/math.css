@@ -1,8 +1,26 @@
 *{
-    background-color:lightyellow;
     cursor: url('../cursor.png'), auto;
 }
+.bg{
+    opacity: 30%;
+    background:url('../bg.png') repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
 
+    animation: movingbg 30s linear infinite;
+
+}
+@keyframes movingbg {
+    0% { transform: translate(0, 0); }
+    
+    100% { transform: translate(-50%, -50%) ; }
+
+    
+}
 .press{
     background-color:yellow;
     color:orange;
@@ -36,6 +54,7 @@ img{
 .logo:hover{
     background-color:orange;
     color:yellow;
+    box-shadow: 3px 3px 3px yellow;
 }
 
 s{

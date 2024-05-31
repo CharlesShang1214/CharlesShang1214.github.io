@@ -1,9 +1,27 @@
 *{
-    background-color:lightyellow ;
+
     cursor: url('../cursor.png'), auto;
 }
+.bg{
+    opacity: 30%;
+    background:url('../bg.png') repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
 
+    animation: movingbg 30s linear infinite;
 
+}
+@keyframes movingbg {
+    0% { transform: translate(0, 0); }
+    
+    100% { transform: translate(-50%, -50%) ; }
+
+    
+}
 .title{
     background-color: orange;
     display:inline;
@@ -22,21 +40,21 @@ a {
     border-radius: 10%;
     padding: 4px;
     transition: color 0.5s, background-color 0.5s, box-shadow 1s;
-
-
-    
-}
-
-.button:active{
-    color:black;
-    transform: scale(.9) translateY(5px) translateX(10px) skewX(10deg);
-    box-shadow:none;
 }
 a:hover {
     background-color: orange;
     color: black;
     box-shadow: 7px 7px 7px yellow;
 }
+
+
+
+.button:active{
+    color:black;
+    transform: scale(.9) translateY(5px) translateX(10px) skewX(10deg);
+    box-shadow:none;
+}
+
 
 img{
     background: none;
