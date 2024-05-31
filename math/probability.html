@@ -22,19 +22,16 @@
     <button id="nf" type="button">n!</button>
     <h1 id="solution">Solution:</h1>
     <script>
+
     document.getElementById("npr").addEventListener("click", function() {
         let n = parseInt(document.getElementById("n").value);
         let r = parseInt(document.getElementById("r").value);
-        if (isNaN(n)) {
-        n = 1;
-        } else {
-        n = n;
-        }
-        if (isNaN(r)) {
-        r = 1;
-        } else {
-        r = r;
-        }
+        if (isNaN(n)) {n = 1;} 
+        else {n = n;}
+        if (isNaN(r)) {r = 1;} 
+        else {r = r;}
+
+
         document.getElementById("equation").innerText = "Your Function:" + n +"P"+ r;
         let numerator=1;
         for(let i =1 ;i <= n;i++){
@@ -49,9 +46,13 @@
 
     });
     document.getElementById("ncr").addEventListener("click", function() {
-    
-        let n =  parseInt(document.getElementById("n").value);
+        let n = parseInt(document.getElementById("n").value);
         let r = parseInt(document.getElementById("r").value);
+        if (isNaN(n)) {n = 1;} 
+        else {n = n;}
+        if (isNaN(r)) {r = 1;} 
+        else {r = r;}    
+ 
         document.getElementById("equation").innerText = "Your Function:" + n +"C"+ r;
         let numerator=1;
         for(let i =1 ;i <= n;i++){
@@ -73,6 +74,11 @@
     });
     document.getElementById("nf").addEventListener("click", function() {
         let n = parseInt(document.getElementById("n").value);
+        let r = parseInt(document.getElementById("r").value);
+        if (isNaN(n)) {n = 1;} 
+        else {n = n;}
+        if (isNaN(r)) {r = 1;} 
+        else {r = r;}       
         document.getElementById("equation").innerText = "Your Function:" + n +"!";
         let solution=1;
         for(let i =1 ;i <= n;i++){
