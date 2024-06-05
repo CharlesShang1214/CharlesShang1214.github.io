@@ -22,16 +22,7 @@
 
     
 }
-.title{
-    background-color: orange;
-    display:inline;
-    border-radius: 5%; 
-    transition: color 0.5s, background-color 0.5s;
-}
-.title:hover{
-    background-color:yellow;
-    color: orange;
-}
+
 a {    
     display:inline-block;   
     background-color: yellow;
@@ -48,14 +39,28 @@ a:hover {
 }
 
 
-
+.button{
+    transition: all 0.3s;
+}
 .button:active{
     color:black;
-    transform: scale(.9) translateY(5px) translateX(10px) skewX(10deg);
+    transform: scale(.8) translateY(2px) translateX(2px);
     box-shadow:none;
 }
 
 
 img{
     background: none;
+}
+.title{
+    color: yellow;
+    background-color: orange;
+    display:inline;
+    border-radius: 5%; 
+    transition: all 0.5s;
+}
+.title:hover{
+    background-color:yellow;
+    color: orange;
+    box-shadow: 5px 5px 5px orange;
 }
