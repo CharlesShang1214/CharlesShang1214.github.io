@@ -27,17 +27,20 @@ a {
     display:inline-block;   
     background-color: yellow;
     color: darkgoldenrod;
-    text-decoration: none;
+
     border-radius: 10%;
     padding: 4px;
-    transition: color 0.5s, background-color 0.5s, box-shadow 1s;
+    transition: all 0.3s;
 }
 a:hover {
     background-color: orange;
     color: black;
     box-shadow: 7px 7px 7px yellow;
+    
 }
-
+a:active{
+    transform: scale(.8) translateY(2px) translateX(2px);
+}
 
 .button{
     transition: all 0.3s;
@@ -55,7 +58,7 @@ img{
 .title{
     color: yellow;
     background-color: orange;
-    display:inline;
+    display: inline-block;
     border-radius: 5%; 
     transition: all 0.5s;
 }
@@ -63,4 +66,39 @@ img{
     background-color:yellow;
     color: orange;
     box-shadow: 5px 5px 5px orange;
+}
+#aboutme{
+    background-color: orange;
+    color:gold;
+    display: inline;
+    box-shadow:5px 5px 5px yellow;
+}
+.title:active{
+    color:black;
+    box-shadow:none;
+    transform: scale(.8) translateY(2px) translateX(2px);
+}
+a>span{
+    filter: blur(3px);
+    transition: all 0.3s;
+}
+span:hover{
+    filter:blur(0px);
+
+}
+.bj:hover{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg) translateX(0px);
+        
+    }
+    50%{
+        transform: rotate(180deg) translateX(30px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(0px);
+    }
 }
